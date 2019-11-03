@@ -1,0 +1,164 @@
+/*-------------- BODY-------------------*/
+html {
+    font-size: 10px;
+}
+/*-------------- LAYOUT-------------------*/
+.main-container {
+    display: flex;
+    width: 1250px;
+    margin-left: 10px;
+}
+
+/*-------------- STRUCTURE GENERALE -------------------*/
+ul {
+    list-style-type: none;
+    font-size: 12px;
+}
+
+.clean {
+    clear: both;
+    font-size: 11px;
+}
+h1, h2 {
+    text-transform: uppercase;
+}
+/*-------------- ASIDE-------------------*/
+aside {
+    background-color: #FF7500;
+    width: 30%;
+    margin-right: 0.3%;
+}
+aside * {
+    color: white;
+}
+aside section h2:first-child{
+    border-bottom: 2px solid whitesmoke;
+    text-transform: uppercase;
+
+}
+aside h2 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+#photocv img {
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem;
+}
+/*-------------- MAIN-------------------*/
+main section > h2 {
+    /*text-transform: uppercase;*/
+    letter-spacing: 5px;
+}
+.presentation {
+    background-color: #F3594A;
+    height: 97%;
+    padding: 2% 0;
+}
+
+#titre {
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 35px;
+    text-align: center; 
+    color: blanchedalmond;
+    text-shadow: 1.5px 0 0 black;
+}
+
+.presentation h2 {
+    text-transform: uppercase;
+    color: white;
+    border-top: 2px solid white;
+    letter-spacing: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+.presentation h1 {
+    letter-spacing: 10px;
+    font-family: 'Plaster', cursive;
+    font-size: 50px;
+    color: blanchedalmond;
+    text-shadow: 1.5px 0 0 #000;
+    text-align: center;
+}
+.propos {
+    text-align: center;
+}
+
+.propos p {
+    line-height: 1.5em;
+    font-size: 18px;
+    color: blanchedalmond;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.2px;
+}
+article h3, article h4 {
+    font-weight: bold;
+}
+article ul {
+    list-style-type: square;
+}
+
+p {
+    margin-left: 40px;
+    color: #fff;
+}
+
+.missions {
+    margin-left: 70px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+h4 {
+    margin-left: 70px;
+    font-size: 13px;
+    color: #fff;
+}
+.secteur {
+    margin-left: 80px; 
+    font-size: 13px;
+    color: #fff;
+}
+h3{
+    margin-left: 50px;
+    font-size: 13px;
+    color: #fff;
+}
+.title-main {
+    font-size: 20px;
+    color: #fff;
+    margin-left: 30px;
+}
+.interest-icons {
+    border-radius: 50%;
+    width: 12rem;
+    height: 12rem;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+
+/*-------------- DESCRIPTIONS ASIDE-------------------*/
+dt,dd {
+    border-top: 1px solid #FF7500;
+    line-height: 1.5rem;
+    
+}
+dt:last-of-type,
+dd:last-of-type {
+border-bottom: 1px solid #FF7500;
+}
+dl {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+dt,dd {
+    flex-basis: 50%;
+    margin: 0;
+}
+/*-------------- ICONS SOCIAL-------------------*/
+.socials-networks{
+   font-size: 20px;
+   margin-left: 80px;
+
+}
