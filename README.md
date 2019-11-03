@@ -1,7 +1,7 @@
 
 # CV Developpeur
 
-J'ai réalisé mon CV en format.
+J'ai réalisé mon CV en format web. 
 
 Celui-ci est composé des sections :
 
