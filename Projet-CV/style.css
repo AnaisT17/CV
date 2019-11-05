@@ -169,3 +169,6 @@ dt,dd {
    margin-left: 80px;
 
 }
+
+/*--------------- MEDIA QUERIE -------------------*/
+@media all and (min-width: 1024px) and (max-width: 1280px)
